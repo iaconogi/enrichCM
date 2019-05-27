@@ -1,0 +1,15 @@
+Package: enrichCellMarkers
+Type: Package
+Title: A simple and fast enrichment tool to discover the putative cell
+        types in your single cell dataset
+Version: 1.0
+Date: 2019-01-31
+Author: Giovanni Iacono
+Maintainer: Giovanni Iacono <gio.iacono.work@gmail.com>
+Description: A simple and fast enrichment tool to discover the putative cell types in your single cell dataset
+LinkingTo: Rcpp
+License: GPL (>= 2)
+RoxygenNote: 6.1.1
+Encoding: UTF-8
+NeedsCompilation: no
+Packaged: 2019-05-27 09:26:50 UTC; admin
