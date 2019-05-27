@@ -1,8 +1,9 @@
 # **CellMarker Enrichment**
 
 *CellMarker Enrichment* is a simple and fast enrichment tool to discover the putative cell types of your single cell dataset. It makes used of the largest database of single cell markers created by [Xinxin Zhang et al.](https://academic.oup.com/nar/article/47/D1/D721/5115823) which contains 13605 cell markers of 467 cell types in 158 human tissues/sub-tissues and 9148 cell makers of 389 cell types in 81 mouse tissues/sub-tissues.
+For any problem either open an issue in GitHub or contact me at **gio.iacono.work@gmail.com**
 
-To run CMenrich simply pass as input your list of markers, which can be the ones inferred from the analysis of your single cell dataset, and soecify the species (human or mouse).
+To run CMenrich simply pass as input your list of markers, which can be the ones inferred from the analysis of your single cell dataset, and specify the species (human or mouse).
 
 ```{r}
 results=CMenrich(gene.list=c('NEUROD1','ARX','CD79A'),species='human')
