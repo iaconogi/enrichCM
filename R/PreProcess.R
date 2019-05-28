@@ -1,4 +1,4 @@
-cell_markers <- read.delim("C:/ncmls/varie/cell marker/Human_cell_markers.txt", stringsAsFactors=FALSE)
+cell_markers <- read.delim("http://bio-bigdata.hrbmu.edu.cn/CellMarker/download/Human_cell_markers.txt", stringsAsFactors=FALSE)
 cell.type=c()
 for (k in 1:nrow(cell_markers))
   cell.type[k]=sprintf('%s, %s, %s',cell_markers$tissueType[k],cell_markers$cancerType[k],cell_markers$cellName[k])
